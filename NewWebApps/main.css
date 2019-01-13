@@ -1,8 +1,28 @@
 @charset "UTF-8";
 
+/*
+ユニバーサルセレクタを利用して初期化 */
+* {
+	margin:0;
+	padding:0;
+}
+
+/*font-sizeはブラウザに対応させるため"%"表記*/
+body {
+	background:white;
+	font-family:Verdana, "ＭＳ Ｐゴシック", sans-serif;
+    font-size:100%;
+}
+
+/*
+見出し関係の指定*/
+h1,h2,h3,h4,h5,h6 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
 /* pタグ装飾 */ 
 p {
-    font-size: 25px;
     background-color: #FFC107;
 }
 
@@ -23,4 +43,10 @@ h2#center{
 /* 要素を指定しないと全てに適応*/
 #center{
     color:yellow;
+}
+
+body{
+    text-align: center;
+    width: 600px;
+    height: auto;
 }
