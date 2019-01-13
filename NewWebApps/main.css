@@ -8,10 +8,16 @@
 }
 
 /*font-sizeはブラウザに対応させるため"%"表記*/
+/*左右のマージンを自動調整*/
 body {
 	background:white;
 	font-family:Verdana, "ＭＳ Ｐゴシック", sans-serif;
     font-size:100%;
+    margin-right: auto;
+    margin-left : auto;
+    text-align: center;
+    width: 1000px;
+    height: auto;
 }
 
 /*
@@ -21,14 +27,16 @@ h1,h2,h3,h4,h5,h6 {
     padding-top: 10px;
 }
 
+h1{
+    border-bottom: double 5px black;
+}
+
 /* pタグ装飾 */ 
 p {
     background-color: #FFC107;
 }
 
-h1{
-    border-bottom: double 5px black;
-}
+/*------------ここから練習--------------*/
 
 /* classはカンマで表現する */
 div.font-color{
@@ -43,10 +51,4 @@ h2#center{
 /* 要素を指定しないと全てに適応*/
 #center{
     color:yellow;
-}
-
-body{
-    text-align: center;
-    width: 600px;
-    height: auto;
 }
