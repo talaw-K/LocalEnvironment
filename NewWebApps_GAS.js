@@ -2,7 +2,7 @@
 //Ctrl + space
 
 function doGet() {
-return HtmlService.createHtmlOutputFromFile('index');
+    return HtmlService.createHtmlOutputFromFile('index');
 }
 
 /*
@@ -23,6 +23,7 @@ HtmlOutputオブジェクト
 */
 
 /*
+<!--div ⇒　範囲をグループ化するためのタグ-->
 <!-- スクリプトタグは最後の方に -->
 <!-- JS　記載場所 -->
 <!-- ここから -->
@@ -40,11 +41,11 @@ document.getElementById('hello').textContent = 'Hello JavaScript!';
 <!-- ここまで -->
 
 <!-- 外部ファイル -->
-<!-- 
+<!--
 <link rel="styleshee" href="CSSファイルのURL">
 <script src="JavaScriptファイルのURL"></script>
  -->
- 
+
  <!--
  Content Delivery Network=ネット上で公開されている
  コンテンツやライブラリを効率よく配布するための仕組み
