@@ -1,25 +1,5 @@
 <style>
-#h2-orange {
-  color: orange;
-  font-size: x-large;
+p{
+  background-color:red;
 }
-.p-small {
-  color: gray;
-  font-size: small;
-}
-.gas {
-  font-size: large;
-  font-weight: bold;
-}
-
-<!-- Bootstrap CSS -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-
-
-
-
-
-
-
-
 </style>
