@@ -1,5 +1,26 @@
-<style>
-p{
-  background-color:red;
+@charset "UTF-8";
+
+/* pタグ装飾 */ 
+p {
+    font-size: 25px;
+    background-color: #FFC107;
 }
-</style>
+
+h1{
+    border-bottom: double 5px black;
+}
+
+/* classはカンマで表現する */
+div.font-color{
+    color:red;
+}
+/* 優先度=要素+id>idのみ */
+/* 要素を指定してあげることでかつ条件になる */
+h2#center{
+    color:greenyellow;
+}
+
+/* 要素を指定しないと全てに適応*/
+#center{
+    color:yellow;
+}
