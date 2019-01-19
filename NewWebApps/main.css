@@ -31,8 +31,18 @@ padding-top: 10px;
 a{
 padding-right: 15px;
 padding-left: 15px;
-color:whitesmoke;
+color:white;
 text-decoration: none;
+border: solid 1px white;
+margin: 0px 10px;
+height: 25px;
+width: 100px;
+display: -webkit-flex;
+display: flex;
+justify-content: center;
+/* 垂直報告の指定 */
+align-items: center;
+
 }
 
 /* リンクポイント時の背景色指定 */
@@ -44,22 +54,9 @@ img {
 width: 100%;
 }
 
-/* pタグ装飾 */ 
-#head{
-background-color: #000000;
-display: -webkit-flex;
-display: flex;
--webkit-flex-direction: row;
-flex-direction: row;
-/* 水平方向の指定 */
-justify-content: flex-start;
-/* 垂直報告の指定 */
-align-items: center;
-}
-
 #top{
-background-color: rgb(126, 122, 122);
-height:102px;
+background-color: #000;
+height:42px;
 display: -webkit-flex;
 display: flex;
 -webkit-flex-direction: row-reverse;
@@ -72,15 +69,11 @@ align-items: center;
 
 div#eyecatch{
 position:relative;
-background-color: rgb(199, 183, 36);
 height: 360px;
-text-stroke: 1px #000;
--webkit-text-stroke: 1px #000;
 }
 
 div#test{
 position: absolute;/*絶対配置*/
-position: absolute;
 top: 50%;
 left: 50%;
 -ms-transform: translate(-50%,-50%);
@@ -88,7 +81,6 @@ left: 50%;
 transform: translate(-50%,-50%);
 margin:0;
 padding:0;
-/*文字の装飾は省略*/
 }
 
 .btn{
