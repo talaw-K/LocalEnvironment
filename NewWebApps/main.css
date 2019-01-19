@@ -75,24 +75,26 @@ div#eyecatch{
 position:relative;
 background-color: rgb(199, 183, 36);
 height: 360px;
+text-stroke: 1px #000;
+-webkit-text-stroke: 1px #000;
 }
 
 div#test{
 position: absolute;/*絶対配置*/
 position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%,-50%);
-  -webkit-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
-  margin:0;
-  padding:0;
-  /*文字の装飾は省略*/
-  }
+top: 50%;
+left: 50%;
+-ms-transform: translate(-50%,-50%);
+-webkit-transform: translate(-50%,-50%);
+transform: translate(-50%,-50%);
+margin:0;
+padding:0;
+/*文字の装飾は省略*/
+}
 
 .btn{
-    margin-top: 20px;
-    margin-bottom: 20px;
+margin-top: 20px;
+margin-bottom: 20px;
 display: -webkit-flex;
 display: flex;
 -webkit-flex-direction: row;
@@ -116,7 +118,7 @@ flex-direction: row;
 justify-content: center;
 /* 垂直報告の指定 */
 align-items: center;
-border: solid 3px white;
+border: solid 1px white;
 }
 
 /*  Flexbox を使う時の宣言
@@ -137,4 +139,8 @@ justify-content: center;
 #MainArea{
 background-color: whitesmoke;
 color:black;
+}
+
+#subtitle{
+    font-size: 20px;
 }
