@@ -28,21 +28,69 @@ padding-bottom: 10px;
 padding-top: 10px;
 }
 
+p{
+padding-right: 15px;
+padding-left: 15px; 
+}
+
 /* pタグ装飾 */ 
 #head{
 background-color: #8c0000;
 height: 42px;
+display: -webkit-flex;
+display: flex;
+-webkit-flex-direction: row;
+flex-direction: row;
+/* 水平方向の指定 */
+justify-content: flex-start;
+/* 垂直報告の指定 */
+align-items: center;
 }
 
 #top{
 background-color: rgb(126, 122, 122);
 height:102px;
-text-align: right;
+display: -webkit-flex;
+display: flex;
+-webkit-flex-direction: row-reverse;
+flex-direction: row-reverse;
+/* 水平方向の指定 */
+justify-content: flex-start;
+/* 垂直報告の指定 */
+align-items: center;
 }
 
 #eyecatch{
 background-color: rgb(199, 183, 36);
 height: 360px;
+}
+
+.btn{
+    margin-top: 20px;
+    margin-bottom: 20px;
+display: -webkit-flex;
+display: flex;
+-webkit-flex-direction: row;
+flex-direction: row;
+/* 水平方向の指定 */
+justify-content: center;
+/* 垂直報告の指定 */
+align-items: center;
+}
+
+#BtnColor{
+background-color: #8c0000;
+margin: 0px 10px;
+height: 40px;
+width: auto;
+display: -webkit-flex;
+display: flex;
+-webkit-flex-direction: row;
+flex-direction: row;
+/* 水平方向の指定 */
+justify-content: center;
+/* 垂直報告の指定 */
+align-items: center;
 }
 
 /*  Flexbox を使う時の宣言
@@ -55,6 +103,9 @@ background-color: #2f3239;
 height: 50px;
 display: -webkit-flex;
 display: flex;
+-webkit-flex-direction: column;
+flex-direction: column;
+justify-content: center;
 }
 
 #MainArea{
