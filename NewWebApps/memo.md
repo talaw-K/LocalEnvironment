@@ -9,8 +9,8 @@ git clone [**Use Git or checkout with SVN using the web URL.**]
 ギット内のファイルが連携あとローカルの連携完了。
 コミットと同期をテストしてみて問題ないようならば、成功。
 
-#
 
-#
 
-#
+
+# テスト
+## 採用に関して

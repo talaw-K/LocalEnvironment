@@ -3,52 +3,62 @@
 /*
 ユニバーサルセレクタを利用して初期化 */
 * {
-	margin:0;
-	padding:0;
+margin:0;
+padding:0;
 }
 
 /*font-sizeはブラウザに対応させるため"%"表記*/
 /*左右のマージンを自動調整*/
 body {
-	background:white;
-	font-family:Verdana, "ＭＳ Ｐゴシック", sans-serif;
-    font-size:100%;
-    margin-right: auto;
-    margin-left : auto;
-    text-align: center;
-    width: 1000px;
-    height: auto;
+background:#0a0a0a;
+font-family:Verdana, "ＭＳ Ｐゴシック", sans-serif;
+font-size:100%;
+margin-right: auto;
+margin-left : auto;
+text-align: center;
+width: 1200px;
+height: auto;
+color:white;
 }
 
 /*
 見出し関係の指定*/
 h1,h2,h3,h4,h5,h6 {
-    padding-bottom: 10px;
-    padding-top: 10px;
-}
-
-h1{
-    border-bottom: double 5px black;
+padding-bottom: 10px;
+padding-top: 10px;
 }
 
 /* pタグ装飾 */ 
-p {
-    background-color: #FFC107;
+#head{
+background-color: #8c0000;
+height: 42px;
 }
 
-/*------------ここから練習--------------*/
-
-/* classはカンマで表現する */
-div.font-color{
-    color:red;
-}
-/* 優先度=要素+id>idのみ */
-/* 要素を指定してあげることでかつ条件になる */
-h2#center{
-    color:greenyellow;
+#top{
+background-color: rgb(126, 122, 122);
+height:102px;
+text-align: right;
 }
 
-/* 要素を指定しないと全てに適応*/
-#center{
-    color:yellow;
+#eyecatch{
+background-color: rgb(199, 183, 36);
+height: 360px;
+}
+
+/*  Flexbox を使う時の宣言
+display: flex;
+display: -webkit-flex;
+
+*/
+#footer{
+background-color: #2f3239;
+height: 50px;
+display: -webkit-flex;
+display: flex;
+
+}
+
+#MainArea{
+background-color: whitesmoke;
+color:black;
 }
