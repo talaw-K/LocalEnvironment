@@ -47,7 +47,6 @@ width: 100%;
 /* pタグ装飾 */ 
 #head{
 background-color: #000000;
-height: 42px;
 display: -webkit-flex;
 display: flex;
 -webkit-flex-direction: row;
